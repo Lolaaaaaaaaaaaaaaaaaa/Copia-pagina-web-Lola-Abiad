@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(192, 218, 224);
+}
+header{
+    background-color: rgba(40, 109, 121, 0.922);
+    color: rgb(252, 252, 252);
+    margin-bottom: 0px;
+}
+
+#LOGO{
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+#texto-impact{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 10rem;
+
+}
+
+#textoprincipal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+width: 550px;
+text-align: center;
+margin-left: 11rem;
+font-size: 4rem;
+
+}
+
+#contenedor-header{
+    padding-top: 40px;
+
+    margin: 2rem;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr;
+
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+
+}
+
+#ipadimagen{
+width: 430px;
+align-self: flex-end;
+margin-top: auto;
+
+}
+
+#textobajoheader{
+    color: rgb(75, 75, 75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    width: 1000px;
+    font-size: 21px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 14rem;
+    margin-right: 6rem;
+    padding-bottom: 20px;
+    box-shadow: 0px 3px;
+    border-top: 5px;
+    box-sizing: content-box;
+
+}
+
+#contenedor-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 15px;
+    align-items: baseline;
+    gap: 50px;
+}
+
+#texto-parrafo{
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#book{
+    float: right;
+}
+
+#freeguide{
+    margin-left: 23px;
+    margin-right: -110px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #888888;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#grilla1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    text-align: left;
+    gap: 0px;
+
+}
+#grilla2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    text-align: left;
+
+}
+
+#subscribe{
+    margin-left: -60px;
+    font-size: 17px;
+    height: 25px;
+}
+
+#emailinput{
+    width: 450px;
+}
+
+#boton{
+    background-color: rgb(54, 150, 240);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    width: 420px;
+    height: 35px;
+    border: 1px;
+    border-radius: 15px;
+    align-self: center;
+    margin: auto;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+
+#button{
+    text-align: center;
+}
+
+#parraph{
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+footer{
+    background-color: #393939;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 45px;
+    align-items: center;
+}
+
+#texto-footer{
+    padding: 10px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+#freeguide{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+#lista{
+     font-size: 20px;
+}
+
+#negrita{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#lado-derecho{
+    margin-left: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 1px #888888;
+    margin: auto;
+    width: 500px;
+    align-content: center;
+}
+
+#copy{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #888888;
+    font-weight: 500;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 9px 0;
+    margin-left: 23px;
+
+
+}
